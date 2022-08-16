@@ -24,4 +24,6 @@ $query="insert into tbl_register(name,fname,mobile,email,password,city,gender,ad
 
 mysqli_query($con,$query);
 echo "Record Inserted Successfully";
+
+header("location:show.php");
 ?>
